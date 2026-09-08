@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.venv/
+env/
+
+# Model weights — too large for git
+*.pth
+*.pt
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
