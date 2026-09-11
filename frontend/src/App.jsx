@@ -6,8 +6,8 @@ const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 const SAMPLES = [
   { file: "normal.png", label: "Normal", type: "Fundus" },
   { file: "diabetic_retinopathy.png", label: "Diabetic retinopathy", type: "Fundus" },
-  { file: "glaucoma.png", label: "Glaucoma", type: "Fundus" },
-  { file: "cataract.png", label: "Cataract", type: "Fundus" },
+  { file: "GlaucomaSample.png", label: "Glaucoma", type: "Fundus" },
+  { file: "CataractSample.png", label: "Cataract", type: "Fundus" },
 ];
 
 const PRETTY = {
